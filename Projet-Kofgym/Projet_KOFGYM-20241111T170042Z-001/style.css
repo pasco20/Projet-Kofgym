@@ -1,0 +1,326 @@
+body{
+    font-family: Tahoma;
+    margin: 0px;
+    padding: 0px
+}
+.ulnav {
+  background-color: #354A21;
+  height: 80px;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  align-items: center;
+
+}
+
+.nous {
+    border-style: solid;
+    width: 35rem;
+    padding: 1rem;
+    margin-right: 0.3rem;
+}
+
+#onglets{ 
+
+    letter-spacing: 0.3rem;
+   text-decoration: none;
+    text-align: right;
+    margin-right: 1rem;
+}
+#logopart{
+    height: 80px;
+    margin-top: 0px;
+    padding: 0px;
+    align-items: center;
+}
+.accueilhtml{
+    border: 10rem;
+    text-decoration: none;
+    background-color: aliceblue;
+    border-radius: 0.3rem;
+    border-width: 50px;
+    color: #354A21;
+    padding: 10px;
+    font-weight: bolder;
+}
+
+.aproposhtml{
+    border: 10rem;
+    text-decoration: none;
+    background-color: aliceblue;
+    border-radius: 0.3rem;
+    border-width: 50px;
+    color: #354A21;
+    padding: 10px;
+    font-weight: bolder;
+}
+.tarifshtml{
+    border: 10rem;
+    text-decoration: none;
+    background-color: aliceblue;
+    border-radius: 0.3rem;
+    border-width: 50px;
+    color: #354A21;
+    padding: 10px;
+    font-weight: bolder;
+}
+
+.contacthtml{
+    border: 10rem;
+    text-decoration: none;
+    background-color: aliceblue;
+    border-radius: 0.3rem;
+    border-width: 50px;
+    color: #354A21;
+    padding: 10px;
+    font-weight: bolder;
+}
+.footeraccueil{
+    background-color: #354A21;
+    position: fixed;
+    bottom: 0;   
+    height: 60px;
+    left: 0;  
+    right: 0; 
+    
+}
+.sectionacc{
+    margin-top: 0;
+    background-image: url(éléments/background.jpg) ;
+    background-size: cover;
+    height: 100%;
+    object-fit: cover;
+    height: 100vh;
+    overflow: hidden;
+    background-position: bottom;
+    padding-top: 3rem;
+    
+
+
+}
+#alignement{
+   display: flex;
+   justify-content: space-between;
+   width: 100%;
+   align-items: center;
+   margin-top: 3rem;
+}
+
+.linkcontact{
+    border: 0.2rem;
+    text-decoration: none;
+    background-color:#354A21;
+    border-radius: 0.5rem;
+    color:aliceblue;
+    border-style: inset;
+    padding: 10px;
+
+}
+.accueilmain{
+    color: aliceblue;
+    margin-left: 1rem;
+    font-weight: bolder;
+    font-variant: normal;
+}
+.sociaux{
+    letter-spacing: 0.3rem;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    align-items: center;
+    margin-top: 0.3rem;
+
+}
+.quisommesnous{
+    text-align: center;
+    font-weight: bolder;
+    color: white;
+    padding: 5rem;
+    background-image: url(éléments/banner.png);
+    overflow: hidden;
+    margin-top: 0;
+
+}
+.kofgymapropos{
+    color: #354A21;
+    margin-left: 5rem;
+
+    
+}
+.p1apropos{
+    margin-left: 5rem;
+    background-image: url(éléments/Copie de kofgym.png);
+}
+
+
+.dameimage{
+    margin-bottom: 25rem;
+}
+.i3x{
+    size: 25px;
+    margin-left: 5rem;
+    justify-content: space-between;
+    border: 2rem;
+    border-color: #354A21;
+}
+.element1{
+    border: 0.3rem;
+    border-color: #354A21;
+    border-style: solid;
+    border-radius: 1rem;
+}
+.element2{
+    border: 0.3rem;
+    border-color: #354A21;
+    border-style: solid;
+    border-radius: 1rem;
+}
+.element3{
+    border: 0.3rem;
+    border-color: #354A21;
+    border-style: solid;
+    border-radius: 1rem;
+}
+.venez{
+    margin-left: 24rem;
+    margin-bottom: 5rem;
+}
+.barredetarifs{
+    display: flex;
+    margin-left: 2rem;
+    margin-right: 2rem;
+    justify-content: space-between;
+}
+.packstart{
+    border-radius: 1rem;
+    border-color: #6699CC;
+    border: 0.2rem;
+    padding: 0.5rem;
+    border-style: solid;
+    background-color: white;
+    color: #6699CC;
+    text-align: justify;
+    height: 2rem;
+    height: min-content;
+    font-size: 3rem;
+}
+.tarifsdiv1{
+    border: #6699CC;
+    border-style: solid;
+    border-radius: 1rem;
+    background-color: #6699CC;
+    color: white;
+    padding-inline: 5rem;
+    margin-top: 1rem;
+    padding-bottom: 15rem;
+    margin-right: 1rem;
+    margin-bottom: 5rem;
+
+}
+.hero{
+    display: flex;
+    margin-left: 2rem;
+    margin-inline: ;
+
+}
+.elapropos{
+    display: flex;
+}
+.kofgympng{
+    margin-left: 2rem;
+}
+.imagekof{
+    border-style: solid;
+    border-color: #354A21;
+    border-width: 0.3rem;
+    border-radius: 1rem;
+    margin-top: 1rem;
+}
+.textfooter{
+    color: aliceblue;
+}
+.contactground{
+    background-image: url(éléments/banner.png);
+    background-size: cover;
+    height: 100%;
+    object-fit: cover;
+    height: 100vh;
+    overflow: hidden;
+}
+.contactcontact{
+    text-align: center;
+    font-weight: bolder;
+    color: white;
+    padding: 5rem;
+    background-image: url(éléments/banner.png);
+    overflow: hidden;
+    margin-top: 0;
+}
+.contactmain{
+    margin-bottom: 10rem;
+}
+#textarea{
+    display: flex;
+    width: 25rem;
+    padding-bottom: 2rem;
+    border-radius: 0.2rem;
+    border-color: #354A21;
+    border-style: solid;
+    border-width: 0.1rem;
+}
+.OmarFarouk{
+    display: flex;
+    width: 25rem;
+    padding-top: 0.3rem;
+    padding-bottom: 0.5rem;
+    border-radius: 0.2rem;
+    border-color: #354A21;
+}
+.kofgmail{
+display: flex;
+width: 25rem;
+padding-top: 0.5rem;
+padding-bottom: 0.5rem;
+border-radius: 0.2rem;
+border-color: #354A21;
+}
+.number{
+    display: flex;
+    width: 25rem;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    border-radius: 0.2rem;
+    border-color: #354A21;
+}
+.butact{
+    width: 25rem;
+    background-color: #354A21;
+    border-style: solid;
+    border: 0.2rem;
+    border-radius: 0.5rem;
+    padding: 0.8rem;
+    margin-bottom: 0.3rem;
+    color: aliceblue;
+    font-size: 1rem;
+    font-weight: bolder;
+}
+.lesinputs{
+    border-style: groove;
+    border-color: #354A21;
+    border-width: 0.1;
+    width: 50rem;
+    padding-left: 1rem;
+    padding-top:2rem;
+    margin-top: 2rem;
+    border-top: none;
+    
+}
+
+.enterline{
+    margin-bottom: 1rem;
+    margin-top: 20rem;
+    position: absolute;
+    top: -12px;
+    margin-left: 0.01rem;
+    color: #354A21;
+}
